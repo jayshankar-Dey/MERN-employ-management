@@ -1,0 +1,104 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .img {
+        border-radius: 400px;
+    }
+    
+    .addicon {
+        position: relative;
+        transform: translate(-25px, 15px);
+        cursor: pointer;
+        border-radius: 50px;
+        box-sizing: border-box;
+    }
+    
+    .search {
+        margin: 10px;
+        border-radius: 50px;
+    }
+    
+    .searchfield {
+        border: none;
+        padding: 5px;
+        margin: 5px;
+        width: 100%;
+    }
+    
+    .searchfield:focus {
+        outline: none;
+        border: none;
+    }
+    
+    .add {
+        position: relative;
+        display: flex;
+        font-weight: bold;
+        font-size: 40px;
+        border: 1px solid black;
+        height: 50px;
+        width: 50px;
+        text-align: center;
+        border-radius: 50px;
+        z-index: 3;
+    }
+    
+    .userBody {
+        height: 450px;
+        overflow: scroll;
+    }
+    
+    .userBody::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .adduser {
+        position: absolute;
+        z-index: 10;
+        height: 100%;
+        width: 100%;
+        border: 1px solid black;
+        background: rgba(128, 128, 128, 0.237);
+        top: 0px;
+        left: 0px;
+    }
+    
+    .editUser {
+        position: absolute;
+        z-index: 10;
+        height: 100%;
+        width: 100%;
+        border: 1px solid black;
+        background: rgba(128, 128, 128, 0.237);
+        top: 0px;
+        left: 0px;
+    }
+    
+    .show {
+        position: absolute;
+        z-index: 10;
+        height: 100%;
+        width: 100%;
+        border: 1px solid black;
+        background: rgba(128, 128, 128, 0.237);
+        top: 0px;
+        left: 0px;
+    }
+    
+    .userBody {
+        height: 450px;
+    }
+    
+    .delete {
+        position: absolute;
+        z-index: 10;
+        height: 100%;
+        width: 100%;
+        border: 1px solid black;
+        background: rgba(128, 128, 128, 0.237);
+        top: 0px;
+        left: 0px;
+    }
